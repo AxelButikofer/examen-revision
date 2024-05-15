@@ -46,3 +46,15 @@ video {
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+.box-1 {
+  text-align: center;
+  border: 1px solid #0d47a1;
+  background: #42a5f5;
+  padding: 20px;
+}
+
+.container-box-1 {
+  display: flex;
+  justify-content: center;
+}
