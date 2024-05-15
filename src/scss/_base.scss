@@ -43,6 +43,22 @@ video {
 // base rules
 // ==================================== */
 
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+input {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -75,4 +91,18 @@ body {
 .container-box-3 {
   display: flex;
   flex-wrap: wrap;
+}
+
+.selectors h2 {
+  color: #1d2d44;
+  font-size: 36px;
+}
+
+.selectors h3 {
+  color: #748cab;
+  font-size: 24px;
+}
+
+.highlight:nth-child(1n) {
+  color: red;
 }
